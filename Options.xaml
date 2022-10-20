@@ -1,0 +1,20 @@
+﻿<Window x:Class="CSCI4700_CaptureEnv.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSCI4700_CaptureEnv"
+        mc:Ignorable="d"
+        Icon="Resources\AppIcon.ico"
+        WindowStyle="None"
+        
+        Title="Capture Environment Options" Height="405" Width="645" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TextBox x:Name="outFolder" HorizontalAlignment="Left" Margin="123,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="407" Height="22" IsReadOnly="True" FontSize="14"/>
+        <Label Content="Output Folder: " HorizontalAlignment="Left" Margin="14,37,0,0" VerticalAlignment="Top" Width="110" Height="33" FontSize="14"/>
+        <Button x:Name="ChangeOutFolderBtn" Content="Change" HorizontalAlignment="Left" Margin="536,41,0,0" VerticalAlignment="Top" Height="22" Width="64" Click="ChangeOutFolderBtn_Click"/>
+        <Button x:Name="CancelBtn" Content="Cancel" HorizontalAlignment="Left" Margin="455,347,0,0" VerticalAlignment="Top" Height="30" Width="68" Click="CancelBtn_Click"/>
+        <Button x:Name="ApplyBtn" Content="Apply" HorizontalAlignment="Left" Margin="532,347,0,0" VerticalAlignment="Top" Height="30" Width="68" Click="ApplyBtn_Click"/>
+
+    </Grid>
+</Window>
