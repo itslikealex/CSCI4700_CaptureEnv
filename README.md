@@ -25,6 +25,7 @@ Press the green play button to run the app and start debugging.
 * 3. Add a time-elapsed overlay on the stitched video.
 
 * 4. Create an error dialog to show instead of using the limited MessageBox.Show()
+* 5. Change GUI color and make them all match
 
 
 
